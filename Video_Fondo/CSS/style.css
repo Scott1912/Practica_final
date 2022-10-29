@@ -1,0 +1,78 @@
+/* encabezado */
+body{
+	background-color: orangered;
+}
+
+header{
+	border: 1px solid white;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3%;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.menu{
+	width: 28px;
+}
+
+/*secion o main*/
+main{
+	color: white;
+}
+
+section{
+	margin-top: 8%;
+	margin-left: 6%;
+}
+
+h1{
+	display: grid;
+	grid-template-rows: 50% 50%;
+}
+
+.fila1{
+	font-size: 65px;
+}
+
+.fila2{
+	font-size: 49px;
+}
+
+.parrafo-section{
+	font-size: 21px;
+}
+
+.explora{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	padding: 10px 25px 10px 25px;
+	background-color: white;
+}
+
+.enlace{
+	padding-top: 25px	;
+}
+
+
+
+/* footer*/
+
+footer{
+	border: 1px solid white;
+	margin-top: 150px;
+	margin-left: 6%;
+}
+
+.enlace-icono{
+	text-decoration: none;
+	padding-right: 25px;
+}
+
+.icono{
+	height: 25px;
+}
+
