@@ -1,78 +1,53 @@
-/* encabezado */
-body{
-	background-color: orangered;
+*{
+	box-sizing: border-box;
 }
 
-header{
-	border: 1px solid white;
+body {
+	position: relative;
 	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container-video{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: auto;
+	z-index: -1;
+}
+
+header {
+	height: 10vh;
+}
+
+header .container{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 3%;
-	margin-left: 6%;
-	margin-right: 6%;
+	padding: 30px 80px
 }
 
-.menu{
-	width: 28px;
+header .logo{
+	font-weight: bolder;
+	font-size: 25px;
 }
 
-/*secion o main*/
-main{
-	color: white;
+.container-main{
+	height: 70vh;
 }
-
-section{
-	margin-top: 8%;
-	margin-left: 6%;
-}
-
-h1{
-	display: grid;
-	grid-template-rows: 50% 50%;
-}
-
-.fila1{
-	font-size: 65px;
-}
-
-.fila2{
-	font-size: 49px;
-}
-
-.parrafo-section{
-	font-size: 21px;
-}
-
-.explora{
-	text-decoration: none;
-	font-size: 18px;
-	color: black;
-	padding: 10px 25px 10px 25px;
-	background-color: white;
-}
-
-.enlace{
-	padding-top: 25px	;
-}
-
-
-
-/* footer*/
 
 footer{
-	border: 1px solid white;
-	margin-top: 150px;
-	margin-left: 6%;
+	height: 15vh;
+	display: flex;
+	align-items: flex-end;
 }
 
-.enlace-icono{
+footer nav{
+	margin: 0px 50px;
+}
+
+footer .enlace-icono{
+	padding-right: 20px;
 	text-decoration: none;
-	padding-right: 25px;
 }
-
-.icono{
-	height: 25px;
-}
-
